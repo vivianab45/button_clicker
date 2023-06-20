@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar flex">
+        <h1>Dojonary</h1>
+        <input placeholder="Search" type="Search" />
+        <button onclick="logOff(this)" >Login</button> 
+      </div>
+      <div class="body-container flex flex-start">
+        <main>
+          <div class="card flex">
+            <div class="left">
+              <h1>ninja</h1>
+              <h3><em>noun</em></h3>
+              <p>Plural: <em>ninjas</em></p>
+              <br />
+              <button onclick="alert('Ninja was liked')" class="like-button">13 likes</button>
+            </div>
+            <div class="right">
+              <p>
+                A practitioner skilled in the <a href="#">Japanese</a> art of
+                <a href="#">ninjutsu</a>
+              </p>
+            </div>
+          </div>
+          <div class="card flex">
+            <div class="left">
+              <h1>ninja</h1>
+              <h3><em>noun</em></h3>
+              <p>Plural: <em>ninjas</em></p>
+              <br />
+              <button onclick="alert('Ninja was liked')" class="like-button"> 37 likes</button>
+            </div>
+            <div class="right">
+              <p>
+                A <a href="#"> programmer</a> who breaks down problems with
+                <a href="#">zen</a>-like focus
+              </p>
+            </div>
+          </div>
+        </main>
+        <aside class="card">
+          <div class="aside-content">
+              <p>Dojonary is defined by <strong>YOU</strong></p>
+              <br/>
+              <button onclick="hide(this)" class="add-definition">Add Definition</button>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+   <script src="./script.js"></script>
+  </body>
+</html>
